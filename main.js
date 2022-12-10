@@ -8,3 +8,7 @@ document.getElementById("cards").onmousemove = e => {
       card.style.setProperty("--mouse-y", `${y}px`);
     };
   }
+
+  function redirectJan() {
+    window.location.assign(window.location.href + "/Jan.html")
+  }
